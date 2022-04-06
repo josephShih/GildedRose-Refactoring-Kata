@@ -16,7 +16,9 @@ class GildedRose {
             	item.updateAgedBrieItem();
             } else if (item.name.equals("Backstage passes to a TAFKAL80ETC concert")) {
             	item.updateBackstageItem();
-        	} else {
+            } else if(item.name.equals("Conjured")) {
+            	item.updateConjuredItem();
+            } else {
         		item.updateItem();
             }
         }
